@@ -1,0 +1,17 @@
+body {background-color: #FED1EF;}
+a {color: #ff12b4;}
+h1 {color: #1e10e0;}
+h2 {color: #1e10e0;}
+p {color: #000000;}
+.darkbluenav {color: #1e10e0;}
+nav {background-color: #9991ff;}
+nav a {color: #ff12b4;}
+nav a:hover {background-color: #f7eb7e;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+
+.flexbox {display: flex; margin: 10px;}
+.felxbox article {padding: 20px;}
+
+.flexbox2 {display: flex; background-color: white; border-radius: 1em; margin: 15px;}
+.flexbox div, .flexbox2 div {margin: 10px;} 
