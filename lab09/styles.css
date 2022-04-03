@@ -17,3 +17,4 @@ nav {margin-bottom: 30px;}
 .flexbox2 {display: flex; justify-content: space-between; margin: 60px;}
 .flexbox div, .flexbox2 div {margin: 30px;} 
 aside {background-color: white; border-radius: 5px; padding: 30px; text-align: center; width: 100px; align-items: flex-end;}
+img {width: 35px}
