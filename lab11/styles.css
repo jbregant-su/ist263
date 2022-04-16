@@ -1,11 +1,11 @@
 body {background-color: #FED1EF;}
-a {color: #ff12b4;}
+a {color: darkblue}
 h1 {color: #1e10e0;}
 h2 {color: #1e10e0;}
 p {color: #000000;}
 .darkbluenav {color: #1e10e0;}
-nav {background-color: #9991ff;}
-nav a {color: #ff12b4;}
+nav {background-color: lightsteelblue;}
+nav a {color: darkblue;}
 nav a:hover {background-color: #f7eb7e;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
@@ -13,7 +13,7 @@ nav {margin-bottom: 30px;}
 .flexbox {display: flex; margin: 10px;}
 .felxbox article {padding: 20px;}
 
-.skillsicons {display: flex; justify-content: space-around; margin-top: 50px;}
+.skillsicons {display: flex; justify-content: space-around; margin-top: 40px;}
 .flexbox2 {display: flex; justify-content: space-between; margin: 60px;}
 .flexbox div, .flexbox2 div {margin: 30px;} 
 aside {background-color: white; border-radius: 5px; padding: 30px; text-align: center; width: 100px; align-items: flex-end;}
