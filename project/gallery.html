@@ -5,6 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../project/projectstyles.css">
+    <style>
+        h1 {color: #36422e;
+            font-family: 'Poiret One', cursive;
+}.row {
+  display: flex;
+}
+.row1 {
+    display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.caption {font-family: monospace;
+color: #36422e;
+}
+            @media only screen and (max-width: 800px) {
+                .row {max-width: 100%}
+                h1 {font-size: 4em;}
+                img {max-width: 100%;}
+            }
+    </style>
 </head>
 <body>
     <nav>
@@ -14,45 +37,72 @@
     </nav>
 
     <h1>Some of My Dishes</h1>
+   
+         
+<div class="row">
+    <div class="column">
     <img src="../project/chickenpiccata.jpeg" alt="Chicken Piccata"
-    width="300"
+    width="250"
     height="250"> 
-
+    <div class="caption">Chicken Piccata</div> 
+    </div>
+   
+    <div class="column">
     <img src="../project/vodkasauce.jpeg" alt="Vodka Sauce" 
     width="200"
     height="250">
-
+    <div class="caption">Pasta Vodka</div> 
+</div>
+<div class="column">
     <img src="../project/steak1.jpeg" alt="Steak"
     width="200"
     height="250">
+    <div class="caption">Rosemary Steak</div> 
+   </div>
 
-
+<div class="column">
     <img src="../project/honeychick.jpeg" alt="Honey Chicken"
     width="200"
     height="250">
-
-    <br>
-
+    <div class="caption">Honey Garlic Chicken</div> 
+</div>
+</div>
+  
+<div class="row1">
+<div class="column">
     <img src="../project/chickenparm.jpeg" alt="Chicken Parn"
     width="200"
     height="250">
+    <div class="caption">Chicken Parm</div> 
+</div>
 
+<div class="column">
     <img src="../project/pasta2.jpeg" alt="Pasta"
     width="200"
     height="250">
+    <div class="caption">Summer Pasta</div> 
+</div>
 
-
+<div class="column">
     <img src="../project/brussels.jpeg" alt="Brussels"
     width="200"
     height="250">
+    <div class="caption">Brussel Sprouts</div> 
+</div>
 
+<div class="column">
     <img src="../project/cauliflower.jpeg" alt="Cauliflower"
     width="200"
     height="250">
+    <div class="caption">Roasted Cauliflower</div> 
+</div>
 
+<div class="column">
     <img src="../project/chickenmartini.jpeg" alt="Chicken Martini"
     width="200"
     height="250">
-
+    <div class="caption">Chicken Martini</div> 
+</div>
+</div>
     </body>
     </html>

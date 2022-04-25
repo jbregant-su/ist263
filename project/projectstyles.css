@@ -1,0 +1,8 @@
+.greennav {color: #cdffab;}
+nav {background-color: #cdffab;}
+nav a {color: #36422e;}
+nav a {font-family: monospace;
+font-size: larger;}
+nav a:hover {background-color: pink;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
