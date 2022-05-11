@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../project/projectstyles.css">
+    <style>
+        h1 {color: rgb(233, 140, 155);
+            font-family: 'Koulen', cursive;
+            text-align: center;
+            font-size: 2em;
+}
+            img {float: left;
+            margin-bottom: 50px; 
+            padding: 5px;
+    
+        }
+            .stopfloating {clear:both; }
+        p {color: #36422e;}
+@media only screen and (max-width: 800px) {
+                .row {max-width: 100%}
+                h1 {font-size: 3em;}
+                nav {display: flex;}
+                img {max-width: 100%;}
+                .image1, .image2 {display: flex;
+            flex-wrap: wrap;} 
+            }
+      
+
+    .image1, .image2 {
+                border: 3px solid rgb(233, 140, 155);
+                background-color: white;
+                padding: 30px; 
+                margin: 60px;
+                width: 80%;
+               
+    }
+        </style>
+</style>
 </head>
 <body>
     <nav>
-        <a href= "about.html">About</a>|
-        <a href= "recipes.html"> Recipes</a>|
-        <a href="gallery.html"> Photos</a>|
+        <a href= "about.html">About</a>
+        <a href= "recipes.html"> Recipes</a>
+        <a href="gallery.html"> Photos</a>
     </nav>
     <h1>Chicken Piaccata, Brussel Sprouts, White Rice</h1>
 
+<div class="image1">
     <img src="../project/chickenpiccata.jpeg" alt="Chicken Piccata"
     width="375"
     height="300"> 
-
-   <img src="../project/brussels.jpeg" alt="Brussels"
-    width="250"
-    height="300"> <br> 
-
 <p>
     <strong>FOR THE CHICKEN:</strong><br>
     Thinly pounded chicken cutlets <br>
@@ -39,7 +72,14 @@
     5.	Remove all chicken from pan, lower the heat a little, and add ½ cup or so of chicken broth to deglaze the pan. Make sure to scrape the bottom of the pan after doing this. <br>
     6.	Add in minced garlic, capers, lemon juice and put the chicken back in the pan to absorb the sauce for a few more minutes <br>
     7.	Remove chicken and serve! <br>
-    (Side- White rice recommendation – trader joes easy jasime white rice- instructions on box) <br>
+    
+</p>
+
+<div class="image2">
+    <img src="../project/brussels.jpeg" alt="Brussels"
+    width="150"
+    height="200"> 
+    <p>
     <strong>FOR THE BRUSSEL SPROUTS: </strong><br>
     1 bag of brussels <br>
     Olive oil <br>
@@ -50,8 +90,8 @@
     3.	Drizzle with olive oil, salt and pepper<br>
     4.	Bake for about 30 minutes or until crispy<br>
     5.	Drizzle with balsamic glaze<br>
-    
-</p>
-
+    (Side- White rice recommendation – trader joes easy jasime white rice- instructions on box)
+    </p>
+</div>
 </body>
 </html>

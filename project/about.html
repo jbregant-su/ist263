@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../project/projectstyles.css">
+    <style>
+        h1 {color: rgb(233, 140, 155);
+            font-family: 'Koulen', cursive;
+            text-align: center;
+            font-size: 2em;
+}
+
+h2, p {
+    color: #36422e;
+}
+.button {
+  font: bold 16px 'Koulen';
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+</style>
 </head>
 <body>
     <nav>
-        <a href= "about.html">About</a>|
-        <a href= "recipes.html"> Recipes</a>|
-        <a href="gallery.html"> Photos</a>|
+        <a href= "about.html">About</a>
+        <a href= "recipes.html"> Recipes</a>
+        <a href="gallery.html"> Photos</a>
     </nav>
     <h1>Bregante's Bites</h1>
-    <p>On this site, you will find my collaboration of meals and recipes that have been passed down by my grandmother, 
-    mother, friends, and even some I have found and loved online! I decided to put them all into one place, 
-    since it can be hard to meal plan each week and I don’t know about you, 
-    but I always forget my recipes! You can make these as a college student, 
-    to continue eating (somewhat) healthy while still enjoying flavorful meals, 
-    or you can cook for your entire family at home… I promise they will love it! 
-    Here are some of my personal favorites:</p>
+    <div class="about">
+        <p>On this site, you will find my collaboration of meals and recipes that have been passed down by my grandmother, 
+            mother, friends, and even some I have found and loved online! I decided to put them all into one place, 
+            since it can be hard to meal plan each week and I don’t know about you, 
+            but I always forget my recipes! You can make these as a college student, 
+            to continue eating (somewhat) healthy while still enjoying flavorful meals, 
+            or you can cook for your entire family at home… I promise they will love it! 
+            Here are some of my personal favorites:</p>
+    </div>
 
+    <div class="images">
     <img src="../project/chickenpiccata.jpeg" alt="Chicken Piccata"
     width="300"
     height="250"> 
@@ -33,7 +63,8 @@
     width="200"
     height="250">
 <br>
-    <a href="recipes.html">Read More</a>
+        <a href="recipes.html" class="button">Read More</a>
+    </div>
 <h2>About Me</h2>
     <p>
         Hi, I’m Jenna Bregante, a college junior at Syracuse University, creator of “bregantesbites”. Growing up in a fully Italian family, 
